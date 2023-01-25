@@ -1,0 +1,10 @@
+.flashcard {
+width: inherit;
+height: inherit;
+}
+
+.flashcard > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
