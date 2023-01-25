@@ -3,7 +3,7 @@ import { useGetPic } from './useGetPic';
 import HomeBtn from '../components/home-btn';
 import './Cards.css';
 
-const alphaCards = [
+const bravoCards = [
   'https://images.pexels.com/photos/206959/pexels-photo-206959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   'https://images.pexels.com/photos/1089306/pexels-photo-1089306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   'https://images.pexels.com/photos/14885781/pexels-photo-14885781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -16,14 +16,14 @@ const alphaCards = [
 //   return picSource;
 // };
 
-const Alpha = () => {
-  const [img, setImg] = useState(alphaCards[0]);
+const Bravo = () => {
+  const [img, setImg] = useState(bravoCards[0]);
 
   return (
-    <div className='alpha'>
-      <h2>alpha</h2>
+    <div className='bravo'>
+      <h2>bravo</h2>
       <HomeBtn />
-      <button onClick={() => setImg(useGetPic(alphaCards))}>Next</button>
+      <button onClick={() => setImg(useGetPic(bravoCards))}>Next</button>
       <div className='flashcard'>
         <img src={img} />
       </div>
@@ -31,4 +31,4 @@ const Alpha = () => {
   );
 };
 
-export default Alpha;
+export default Bravo;
