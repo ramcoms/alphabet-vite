@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ramcoms.github.io/alphabet-vite/",
+  "homepage": "https://ramcoms.github.io/alphabet-vite/#",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
