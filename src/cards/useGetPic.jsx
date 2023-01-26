@@ -1,5 +1,4 @@
-export const useGetPic = (array) => {
-  const randomIndex = Math.floor(Math.random() * array.length);
-  const imgSrc = array[randomIndex];
+export const useGetPic = (array, index) => {
+  const imgSrc = array[index];
   return imgSrc;
 };
