@@ -9,9 +9,9 @@ import { imagesData } from '../db';
 // style
 import './Cards.css';
 
-export default function Bravo() {
+export default function Charlie() {
   const [index, setIndex] = useState(0);
-  const array = imagesData.bravo;
+  const array = imagesData.charlie;
   const src = array[index].url;
   const [imageSrc, setImageSrc] = useState(src);
 
@@ -22,7 +22,7 @@ export default function Bravo() {
 
   return (
     <div className='bravo'>
-      <h2>bravo</h2>
+      <h2>charlie</h2>
       <HomeBtn />
       <button onClick={() => handleOnclick()}>Next</button>
       <div className='flashcard'>
