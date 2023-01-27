@@ -1,5 +1,7 @@
 .card-container {
-    width: 100%;
+    margin: 0 auto;
+    padding: 16px 0;
+    width: 500px;
     max-width: 100vw;
     display: flex;
     justify-content: center;
@@ -8,17 +10,25 @@
 }
 
 .card {
-    padding: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30px;
     height: 30px;
-    border: 1px solid #242424;
+    border: 3px solid #fff;
+    border-radius: 16px;
+    background-color: #edc3ac;
+    color: #5b201f;
+    font-weight: 700;
 }
 
 .card:hover {
     cursor: pointer;
-    transform: scale(1.03);
+    background-color: #ec3a40; 
+    color: #fff;
 }
 
 .card span {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
 }
