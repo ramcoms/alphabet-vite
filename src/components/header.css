@@ -1,0 +1,17 @@
+.header {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 4px 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: #5b201f;
+}
+
+.rio {
+    font-size: 0.9rem;
+    color: #5b201f;
+    opacity: 0.3;
+    letter-spacing: 5px;
+}

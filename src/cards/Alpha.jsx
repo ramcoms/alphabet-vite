@@ -11,22 +11,26 @@ import './Cards.css';
 
 export default function Alpha() {
   const [index, setIndex] = useState(0);
+
   const array = imagesData.alpha;
   const src = array[index].url;
+  const name = array[index].name;
+
   const [imageSrc, setImageSrc] = useState(src);
+  const [imageName, setImageName] = useState(name);
 
   const handleOnclick = () => {
     index == array.length - 1 ? setIndex(0) : setIndex(index + 1);
     setImageSrc(src);
+    setImageName(name);
   };
 
   return (
-    <div className='alpha'>
-      <h2>alpha</h2>
+    <div className='flashcard-container'>
       <HomeBtn />
-      <button onClick={() => handleOnclick()}>Next</button>
       <div className='flashcard'>
-        <img src={imageSrc} />
+        <img src={imageSrc} onClick={() => handleOnclick()} />
+        <p>{imageName}</p>
       </div>
     </div>
   );

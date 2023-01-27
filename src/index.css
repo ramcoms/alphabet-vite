@@ -10,26 +10,17 @@ a {
 }
 
 button {
-  /* border-radius: 8px;
-  border: 1px solid #fff;
-  transition: border-color 0.25s;
-   */
   margin: 8px;
   font-family: inherit;
-  font-size: 1em;
+  font-size: 1.5rem;
   font-weight: 500;
   cursor: pointer;
-  padding: 0.6em 1.2em;
-  border: 3px solid #fff;
+  border: none;
   border-radius: 16px;
-  background-color: #edc3ac;
+  background-color: transparent;
   color: #5b201f;
 }
 button:hover {
-  background-color: #ec3a40; 
-  color: #fff;
+  color: #ec3a40;
 }
-/* button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-} */
+

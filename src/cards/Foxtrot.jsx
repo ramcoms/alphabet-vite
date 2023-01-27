@@ -9,10 +9,10 @@ import { imagesData } from '../db';
 // style
 import './Cards.css';
 
-export default function Bravo() {
+export default function Foxtrot() {
   const [index, setIndex] = useState(0);
 
-  const array = imagesData.bravo;
+  const array = imagesData.foxtrot;
   const src = array[index].url;
   const name = array[index].name;
 

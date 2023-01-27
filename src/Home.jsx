@@ -1,4 +1,5 @@
 import Card from './Card';
+import Header from './components/header';
 
 const alphabet = [
   'Alpha',
@@ -32,7 +33,7 @@ const alphabet = [
 const Home = () => {
   return (
     <div className='Home'>
-      <h1>alphabet</h1>
+      <Header />
       <Card alphabet={alphabet} />
     </div>
   );
