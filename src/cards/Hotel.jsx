@@ -9,10 +9,10 @@ import { imagesData } from '../db';
 // style
 import './SingleCard.css';
 
-export default function Foxtrot() {
+export default function Hotel() {
   const [index, setIndex] = useState(0);
 
-  const array = imagesData.foxtrot;
+  const array = imagesData.hotel;
   const src = array[index].url;
   const name = array[index].name;
 

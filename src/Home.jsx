@@ -1,5 +1,6 @@
-import Card from './Card';
+import Cards from './Cards';
 import Header from './components/header';
+import { useFetch } from './components/fetchImage';
 
 const alphabet = [
   'Alpha',
@@ -31,10 +32,14 @@ const alphabet = [
 ];
 
 const Home = () => {
+  // db test
+  const { imageData } = useFetch('apple fruit', 5);
+  console.log(imageData);
+
   return (
     <div className='Home'>
       <Header />
-      <Card alphabet={alphabet} />
+      <Cards alphabet={alphabet} />
     </div>
   );
 };

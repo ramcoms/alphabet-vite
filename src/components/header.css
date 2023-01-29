@@ -4,7 +4,7 @@
     padding: 4px 16px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: baseline;
     color: #5b201f;
 }

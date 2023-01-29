@@ -7,7 +7,7 @@ import HomeBtn from '../components/home-btn';
 import { imagesData } from '../db';
 
 // style
-import './Cards.css';
+import './SingleCard.css';
 
 export default function Bravo() {
   const [index, setIndex] = useState(0);

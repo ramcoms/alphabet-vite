@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
-import './Card.css';
+import './Cards.css';
 
-const Card = ({ alphabet }) => {
+const Cards = ({ alphabet }) => {
   return (
     <div className='card-container'>
       {alphabet.map((letter, index) => (
@@ -15,4 +15,4 @@ const Card = ({ alphabet }) => {
   );
 };
 
-export default Card;
+export default Cards;
